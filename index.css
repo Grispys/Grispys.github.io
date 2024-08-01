@@ -12,16 +12,6 @@
     }
   } 
 
-@keyframes swoosh {
-    0% {
-    background-position-x: 0%;
-    }
-    100% {
-    background-position-x: -500px;
-    }
-}
-
-
 body{
     animation: wave 15s ease-in-out infinite;
     min-height: 100vh;
@@ -30,12 +20,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
 header{
-    animation: wave 10s ease-in-out infinite;
+    animation: wave 15s ease-in-out infinite;
     align-self: flex-start;
-    background: linear-gradient(300deg, #5d5dee, #d4f891, #8787eb, #d4f891);
+    background: linear-gradient(300deg, #9595f3, #d4f891, #8787eb, #d4f891);
     background-size: 200% 200%;
     width: 100%;
     display: flex;
