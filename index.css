@@ -14,21 +14,18 @@
 
 body{
     animation: wave 15s ease-in-out infinite;
-    min-height: 100vh;
     background: linear-gradient(300deg, #49eaff, #a0e5f8, #f3f587, #dcf373);
     background-size: 300% 300%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
     
   }
 
-header{
+.header{
     animation: wave 15s ease-in-out infinite;
     align-self: flex-start;
     background: linear-gradient(300deg, #9595f3, #d4f891, #8787eb, #d4f891);
     background-size: 200% 200%;
-    width: 100%;
+    width: 1880px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,8 +33,32 @@ header{
     border: 4px solid black;
 }
 
+.containerBox{
+  width: 1400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 200px;
+}
 
-  #headerText{
+.infoBox{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: 90px;
+  border: 4px solid black;
+}
+
+
+
+
+
+
+#headerText{
     font-family: "Playfair Display", serif;
     font-size: large;
    
