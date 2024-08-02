@@ -14,7 +14,7 @@
 
 body{
     animation: wave 15s ease-in-out infinite;
-    background: linear-gradient(300deg, #49eaff, #a0e5f8, #f3f587, #dcf373);
+    background: linear-gradient(300deg, #454646, #818181, #3f3f3f, #3f3f3f, #646464, #646464, #646464);
     background-size: 300% 300%;
     height: 100%;
     
@@ -23,7 +23,7 @@ body{
 .header{
     animation: wave 15s ease-in-out infinite;
     align-self: flex-start;
-    background: linear-gradient(300deg, #9595f3, #d4f891, #8787eb, #d4f891);
+    background: linear-gradient(300deg, #a1a1a1, #d1d1d186, #656577, #abacab);
     background-size: 200% 200%;
     width: 1880px;
     display: flex;
