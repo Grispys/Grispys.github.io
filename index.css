@@ -50,6 +50,18 @@ body{
   margin-top: 200px;
 }
 
+.containerBoxNone{
+  width: 1400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
 .containerBox2{
   width: 1400px;
   height: 400px;
@@ -62,6 +74,47 @@ body{
   margin: 0 auto;
   margin-top: 200px;
 }
+
+.containerBox3{
+  width: 1400px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+
+.containerBox3 button{
+  background-color: #000000;
+  font-family: "Zain", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin: 5px;
+  cursor: pointer;
+  border: 3px solid black;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px black;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.containerBox3 button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+
+
+
+
 
 .infoBox{
   width: 150px;
