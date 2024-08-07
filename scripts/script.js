@@ -26,6 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     images["pepper"] = new Image();
     images["pepper"].src = "./corndogImages/corndog_pepper.png";
+
+    images["milk"] = new Image();
+    images["milk"].src = "./corndogImages/corndog_milk.png";
+
+    images["beauty"] = new Image();
+    images["beauty"].src = "./corndogImages/corndog_beauty.png";
+
+    images["patch"] = new Image();
+    images["patch"].src = "./corndogImages/corndog_patch.png";
 });
 
 
@@ -65,5 +74,14 @@ function pepper() {
 }
 
 function milk() {
-    // Add the functionality for milk when you're ready.
+    document.getElementById("corndog").src = images["milk"].src;
 }
+
+function beauty() {
+    document.getElementById("corndog").src = images["beauty"].src;
+}
+
+function patch() {
+    document.getElementById("corndog").src = images["patch"].src;
+}
+
