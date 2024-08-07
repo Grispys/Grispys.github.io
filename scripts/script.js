@@ -1,35 +1,69 @@
-function ketchup(){
-    document.getElementById("corndog").src="./corndogImages/corndog_ketchup.png"
+let images = {};
+
+
+// did this to preload the images, as prior it would take a very long time for the images to switch.
+document.addEventListener("DOMContentLoaded", () => {
+    images["ketchup"] = new Image();
+    images["ketchup"].src = "./corndogImages/corndog_ketchup.png";
+
+    images["mustard"] = new Image();
+    images["mustard"].src = "./corndogImages/corndog_mustard.png";
+
+    images["hotdog"] = new Image();
+    images["hotdog"].src = "./corndogImages/corndog_hotdog.png";
+
+    images["donut"] = new Image();
+    images["donut"].src = "./corndogImages/corndog_donut.png";
+
+    images["website"] = new Image();
+    images["website"].src = "./corndogImages/corndog_website.png";
+
+    images["chili"] = new Image();
+    images["chili"].src = "./corndogImages/corndog_chili.png";
+
+    images["chile"] = new Image();
+    images["chile"].src = "./corndogImages/corndog_chile.png";
+
+    images["pepper"] = new Image();
+    images["pepper"].src = "./corndogImages/corndog_pepper.png";
+});
+
+
+
+
+
+function ketchup() {
+    document.getElementById("corndog").src = images["ketchup"].src;
 }
 
-function mustard(){
-    document.getElementById("corndog").src="./corndogImages/corndog_mustard.png"
+function mustard() {
+    document.getElementById("corndog").src = images["mustard"].src;
 }
 
-function hotdog(){
-    document.getElementById("corndog").src="./corndogImages/corndog_hotdog.png"
+function hotdog() {
+    document.getElementById("corndog").src = images["hotdog"].src;
 }
 
-function donut(){
-    document.getElementById("corndog").src="./corndogImages/corndog_donut.png"
+function donut() {
+    document.getElementById("corndog").src = images["donut"].src;
 }
 
-function website(){
-    document.getElementById("corndog").src="./corndogImages/corndog_website.png"
+function website() {
+    document.getElementById("corndog").src = images["website"].src;
 }
 
-function chili(){
-    document.getElementById("corndog").src="./corndogImages/corndog_chili.png"
+function chili() {
+    document.getElementById("corndog").src = images["chili"].src;
 }
 
-function chile(){
-    document.getElementById("corndog").src="./corndogImages/corndog_chile.png"
+function chile() {
+    document.getElementById("corndog").src = images["chile"].src;
 }
 
-function pepper(){
-    document.getElementById("corndog").src="./corndogImages/corndog_pepper.png"
+function pepper() {
+    document.getElementById("corndog").src = images["pepper"].src;
 }
 
-function milk(){
-    
+function milk() {
+    // Add the functionality for milk when you're ready.
 }
