@@ -35,6 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     images["patch"] = new Image();
     images["patch"].src = "./corndogImages/corndog_patch.png";
+
+    images["loser"] = new Image();
+    images["loser"].src = "./corndogImages/corndog_loser.png";
 });
 
 
@@ -83,5 +86,9 @@ function beauty() {
 
 function patch() {
     document.getElementById("corndog").src = images["patch"].src;
+}
+
+function loser() {
+    document.getElementById("corndog").src = images["loser"].src;
 }
 
