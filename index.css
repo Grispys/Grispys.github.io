@@ -42,6 +42,11 @@ body{
 .header p{
   margin-right: 81%;
   color: white;
+  margin-left: 2vw;
+}
+
+.header img{
+  margin-left: -200%;
 }
 
 .containerBox{
@@ -136,6 +141,8 @@ body{
   color: white;
   border-radius: 80px 20px;
 }
+
+
 
 .containerBox img{
   filter: invert(1);
