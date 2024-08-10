@@ -13,9 +13,13 @@
 
 
 
+
+
+  
+
 body{
     animation: wave 25s ease-in-out infinite;
-    background: linear-gradient(300deg, #454646, #818181, #3f3f3f, #3f3f3f, #646464, #646464, #646464);
+    background: linear-gradient(300deg, #454646, #818181, #3f3f3f, #000000, #646464, #646464, #646464);
     background-size: 300% 300%;
     height: 100%;
   }
@@ -27,17 +31,22 @@ body{
 }
 
 
+.textAlign a{
+  font-size: x-large;
+}
+
+
 .header{
     animation: wave 25s ease-in-out infinite;
     align-self: flex-start;
-    background: linear-gradient(300deg, #a1a1a1, #d1d1d186, #656577, #abacab);
+    background: linear-gradient(300deg, #a1a1a1, #d1d1d186, #282829, #abacab);
     background-size: 200% 200%;
     width: 99%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px 1000px;
-    border: 8px double black;
+    border: 8px double rgba(48, 48, 48, 0.425);
 }
 
 .header p{
@@ -48,6 +57,7 @@ body{
 
 .header img{
   margin-left: -200%;
+  filter: invert();
 }
 
 .containerBox{
@@ -134,7 +144,7 @@ body{
   height: 150px;
   background-color: rgba(32, 32, 32, 0.603);
   margin: 90px;
-  border: 8px double black;
+  border: 8px double rgb(112, 112, 112);
   display: flex;
   flex-direction: column;
   justify-content: center;
