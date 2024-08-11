@@ -1,7 +1,7 @@
 let images = {};
 
 
-// did this to preload the images, as prior it would take a very long time for the images to switch.
+// did this to preload the images, as prior it would take a very long time for the images to switch. It still takes a little bit to load images on the first click.
 document.addEventListener("DOMContentLoaded", () => {
     images["ketchup"] = new Image();
     images["ketchup"].src = "./corndogImages/corndog_ketchup.png";
