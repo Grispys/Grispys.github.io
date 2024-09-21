@@ -161,6 +161,10 @@ body{
   filter: invert(1);
 }
 
+.containerBox a{
+  color: blue;
+}
+
 .infoBox:hover{
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514);
   transition: box-shadow .15s ease-in-out;
