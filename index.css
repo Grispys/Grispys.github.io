@@ -98,6 +98,16 @@ body{
   margin-top: 100px;
 }
 
+.containerBox2 li{
+  font-family: "Zain", sans-serif;
+  font-size: x-large;
+  color: white;
+}
+
+.containerBox2 a{
+  color: blue;
+}
+
 .containerBox3{
   width: 75%;
   height: .6%;
