@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet"  type="text/css" href="index.css">
+    <link rel="icon" href="./icon/favicon.ico" type="image/x-icon"/>
+</head>
+<body></body>
+    
+    <header>
+        <div class="header">
+            <p>Matthew Verge</p>
+            <a href="./index.html"><img src="./images/home.png" width="30" height="30"></a>
+        </div>
+    </header>
+    <div class="containerBox2">
+        <p>As of the date of writing, I am in the last week of my fourth semesters midterms. I've been given two assignments, a to-do list using Single-Linked-Lists,
+            and an airport database system, both in java maven. We're to use MySQL workbench, which is a step away from the world of postgres and react that i'm used to. The easier of the two
+            so far, has been the To-Do list. A simple program where i've set up scanners to take in queries from users, to allow one to sign up, sign in, and create / edit tasks. We were instructed to use arrays and not ArrayLists,
+            so you can only create 10 users, each with 10 tasks. Pretty tame; however, it was apparent that the rest of the midterms challenge was going to come from the airport database.
+
+            <br>
+            <br>
+            In this project, we were given a list of requirements, here's a snippet for example:
+            <ul>
+                <li>Create a java server using SpringBoot to expose a REST API over HTTP</li>
+                <li>Use postman to interact with the database</li>
+                <li>Database is relational, i.e using MySQL.</li>
+                <li>Implement a second program which acts as a client for the api, and connects via HTTP.</li>
+            </ul>
+        </p>
+        <p>
+            For a solo project, it seems like a moderate workload, but it was nothing I couldn't handle within the time frame. I made controller and service classes for Airports, Cities, Passengers, etc.
+            Each class had their own getters and setters for each variable, GetMapping and PostMapping for each of the api's sections, and connections between them. I.e, ManyToOnes for passengers only living in one city, or
+            OneToManys for a given aircraft to house however many passengers.
+            
+            <img src="./images/midtermStructure.png">
+            <br>We used Postman to add and retrieve data from the API's database.
+            <img src="./images/midtermPostman.png">
+        </p>
+        <a href="blog.html" id="return">Return</a>
+    </div>
+</body>
+</html>
