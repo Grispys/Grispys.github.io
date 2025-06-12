@@ -24,6 +24,11 @@ body{
     height: 100%;
   }
 
+video{
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
 
 
 #return{
