@@ -184,6 +184,7 @@ video{
   align-items: center;
   color: white;
   border-radius: 80px 20px;
+  text-align: center;
 }
 
 .containerBox p{
