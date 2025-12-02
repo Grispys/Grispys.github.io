@@ -22,6 +22,7 @@ body{
     background: linear-gradient(300deg, #454646, #818181, #3f3f3f, #000000, #646464, #646464, #646464);
     background-size: 300% 300%;
     height: 100%;
+    max-width: 100%;
   }
 
 video{
@@ -64,11 +65,12 @@ video{
 .header p{
   margin-right: 81%;
   color: white;
-  margin-left: 2vw;
+  margin-left: 200px;
+
 }
 
 .header img{
-  margin-left: -200%;
+  margin-left: -600%;
   filter: invert();
 }
 
@@ -185,7 +187,10 @@ video{
   color: white;
   border-radius: 80px 20px;
   text-align: center;
+	max-width: 100%;
+  min-width: 30%;
 }
+
 
 .containerBox p{
   text-align: center;

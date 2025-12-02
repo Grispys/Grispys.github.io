@@ -76,6 +76,11 @@ body{
 
 }
 
+.main img{
+	max-width: 100%;
+	height: auto;
+}
+
 .label {
 	white-space: nowrap;
 	margin-left: -65px;
